@@ -1,4 +1,4 @@
-FROM ruby:2.2
+FROM ruby:2.7.8
 
 RUN apt-get update; apt-get install libgmp3-dev --assume-yes
 RUN mkdir /pagerbot
